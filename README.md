@@ -5,7 +5,6 @@ Build a Coin Toss betting game!
 
 ## Previous Techniques and Concepts Used in this Lab
 
-1. **ESModules:** `export default` and `import` default
 1. **Tool:** Use 3rd-party testing library
 1. **Variables:** Declaring and assign `const` variable
 1. **Variables:** Assign variable from property of global object
@@ -14,9 +13,6 @@ Build a Coin Toss betting game!
 1. **Functions:** Using an anonymous function as a function argument
 1. **Functions:** Define function parameter
 1. **Testing:** Test assertions with `assert.equal`
-1. **Variables:** Declare `let` variable with sensible default
-1. **Variables:** Reassign `let` variable in a loop
-1. **Strings:** String concatenation with `+` and `+=`
 
 ## Project Increments and T&C
 
@@ -40,9 +36,11 @@ _New T&C:_
 1. **CSS Selectors:** id (`#`), tag, and class (`.`)
 1. **CSS Styling:** `visibility`, `margin`, `padding`,
 `margin: auto`, `min-height`
+1. **ESModules:** `export default` and `import` default
 1. **Built-in (Browser):** global `document`
 1. **DOM Traversal:** `document.getElementById('id')` matches HTML attribute `id="id"`
 1. **Built-in (JavaScript):** `Math.random()` returns 0 to <1
+1. **Variables:** Declare `let` variable with sensible default
 1. **Control Flow:** `if` and `else` conditionality
 1. **Functions:** Call a function with a variable
 1. **Variables:** Reassign `let` variable in conditional block
