@@ -57,6 +57,7 @@ _New T&C:_
 
 1. **HTML Elements:** named radio inputs
 1. **HTML Attributes:** `required` inputs
+1. **App Design:** evolve code: button `click` becomes form `submit`
 1. **DOM Events:** subscribe to form `subscribe` event with `addEventListener`
 1. **DOM Events:** use `event` callback argument to prevent default behavior
 1. **DOM Node:** add class `element.classList.add('class-to-add')`
