@@ -3,7 +3,7 @@ Coin Toss
 
 Build a Coin Toss betting game!
 
-## Existing Techniques and Concepts Used 
+## Previous Techniques and Concepts Used in this Lab
 
 1. **ESModules:** `export default` and `import` default
 1. **Tool:** Use 3rd-party testing library
