@@ -4,6 +4,8 @@ function headsTails(randomNumber) {
     
     if(randomNumber < 0.5) {
         coin = 'Heads';
+    } else {
+        coin = 'Tails';
     }
     return coin;
 }
