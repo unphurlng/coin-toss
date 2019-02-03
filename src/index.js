@@ -2,6 +2,7 @@ import headsTails from './heads-tails.js';
 const flipForm = document.getElementById('flip-form');
 const unicornImage = document.getElementById('unicorn-image');
 const headsCount = document.getElementById('heads-count');
+const tailsCount = document.getElementById('tails-count');
 
 let heads = 0;
 let tails = 0;
@@ -15,12 +16,10 @@ flipForm.addEventListener('submit', function(event) {
     
     if(coin === 'heads') {
         unicornImageSrc = '../assets/heads.jpg';
-        heads++;
-        console.log('heads: ', heads);
+        headsCount.textContent = heads++;
     } else {
         unicornImageSrc = '../assets/tails.jpg';
-        tails++;
-        console.log('tails: ', tails)
+        tailsCount.textContent = tails++;
     }
 
     unicornImage.src = unicornImageSrc;
