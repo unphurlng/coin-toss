@@ -4,8 +4,8 @@ const unicornImage = document.getElementById('unicorn-image');
 const headsCount = document.getElementById('heads-count');
 const tailsCount = document.getElementById('tails-count');
 
-let heads = 0;
-let tails = 0;
+let heads = 1;
+let tails = 1;
 
 flipForm.addEventListener('submit', function(event) {
     event.preventDefault();
