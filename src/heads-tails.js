@@ -3,9 +3,9 @@ function headsTails(randomNumber) {
     let coin = '';
     
     if(randomNumber < 0.5) {
-        coin = 'Heads';
+        coin = 'heads';
     } else {
-        coin = 'Tails';
+        coin = 'tails';
     }
     return coin;
 }

@@ -1,6 +1,6 @@
 import headsTails from './heads-tails.js';
 const flipForm = document.getElementById('flip-form');
-// const unicornImage = document.getElementById('unicorn-image');
+const unicornImage = document.getElementById('unicorn-image');
 
 
 
@@ -9,13 +9,13 @@ flipForm.addEventListener('submit', function(event) {
 
     const randomNumber = Math.random();
     const coin = headsTails(randomNumber);
-    let unicornImage = '';
+    let unicornImageSrc = '';
     
     if(coin === 'heads') {
-        unicornImage = '../assets/heads.jpg';
+        unicornImageSrc = '../assets/heads.jpg';
     } else {
-        unicornImage = '../assets/tails.jpg';
+        unicornImageSrc = '../assets/tails.jpg';
     }
-
-    unicornImage.src = unicornImage;
+    
+    unicornImage.src = unicornImageSrc;
 });
